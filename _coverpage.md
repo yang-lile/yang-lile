@@ -1,4 +1,4 @@
-# lilua 的博客 <small>3.5</small>
+# Lilua's Blog
 
 > 主要是懒。。。
 
@@ -6,5 +6,5 @@
 - **只想写代码！**
 
 [GitHub](https://github.com/yang-lile)
-[垃圾gitee](https://gitee.com/yang-lile)
+[垃圾Gitee](https://gitee.com/yang-lile)
 [不会翻页，点我](#简介)

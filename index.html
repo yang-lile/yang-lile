@@ -9,22 +9,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 
+  <!-- custom container -->
   <link rel="stylesheet" href="./responsive-video-container.css">
 </head>
 
 <body>
   <div id="app">LOOOOOOAAAAAADing.....</div>
   <script>
+    
     window.$docsify = {
       name: "lilua's Blog",
       repo: 'https://github.com/yang-lile/yang-lile',
+      basePath: '/',
 
+      // 感觉并没有起效的返回顶部
       auto2top: true,
+
       // 启用封面
       coverpage: true,
 
       // 启用导航栏
       loadNavbar: true,
+
+      themeColor: '#e998eb',
 
       // 文档更新时间
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
@@ -51,19 +58,28 @@
       },
 
       // 全文搜索
+      // search: {
+      //   depth: [
+      //     '/about.md',
+      //     '/README.md',
+      //     '/tech_blog/hello_flutter.md',
+      //   ],
+      //   noData: '都说了搜不了了。。。',
+      //   placeholder: '搜个屁，用不了'
+      // },
+      subMaxLevel: 6,
       search: {
-        depth: [
-          '/about.md',
-          '/README.md',
-          '/tech_blog/hello_flutter.md',
-        ],
-        noData: '都说了搜不了了。。。',
-        placeholder: '搜个屁，用不了'
-      }
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 6,
+        hideOtherSidebarContent: true, // whether or not to hide other sidebar content
+      },
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- emoji 的使用 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- 从这个链接去添加代码高亮：https://docsify.js.org/#/zh-cn/language-highlight -->

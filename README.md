@@ -1,9 +1,7 @@
-# Readme
+# 来都来了，随便看看
 
 <p align="center">
-  
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&lines=Fuck+you+JavaScript!)](https://git.io/typing-svg)
-  
+  <img src="https://readme-typing-svg.herokuapp.com?center=true&vCenter=true&lines=Fuck+you+JavaScript!" /> 
 </p>
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yang-lile" alt="yang-lile" /></a>
@@ -30,6 +28,7 @@
 - shell
 
 ### 🌈 Github Stats:
+
 <img  align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=yang-lile&show_icons=true&locale=en&layout=compact" alt="yang-lile" />
 
 

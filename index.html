@@ -58,24 +58,25 @@
       },
 
       // 全文搜索
-      // search: {
-      //   depth: [
-      //     '/about.md',
-      //     '/README.md',
-      //     '/tech_blog/hello_flutter.md',
-      //   ],
-      //   noData: '都说了搜不了了。。。',
-      //   placeholder: '搜个屁，用不了'
-      // },
-      subMaxLevel: 6,
       search: {
-        maxAge: 86400000, // Expiration time, the default one day
-        paths: 'auto',
-        placeholder: 'Type to search',
-        noData: 'No Results!',
-        depth: 6,
-        hideOtherSidebarContent: true, // whether or not to hide other sidebar content
+        depth: 'auto',
+        // [
+        //   '/about.md',
+        //   '/README.md',
+        //   '/tech_blog/hello_flutter.md',
+        // ],
+        noData: '都说了搜不了了。。。',
+        placeholder: '搜个屁，用不了'
       },
+      // subMaxLevel: 6,
+      // search: {
+      //   maxAge: 86400000, // Expiration time, the default one day
+      //   paths: 'auto',
+      //   placeholder: 'Type to search',
+      //   noData: 'No Results!',
+      //   depth: 6,
+      //   hideOtherSidebarContent: true, // whether or not to hide other sidebar content
+      // },
     }
   </script>
   <!-- Docsify v4 -->
